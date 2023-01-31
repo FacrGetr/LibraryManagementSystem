@@ -1,0 +1,1067 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>Unsuitable naming(名不符實)-Replenish(replenish)</SmellType>
+              <HashCode>UnsuitableNaming.Library.Replenish.Replenish</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>Library.cs</File>
+              <Line>258</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.Library.Replenish</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>Library.cs</File>
+              <Line>258</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.PaintGridCell.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookBorrowingForm.cs</File>
+              <Line>161</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.PaintGridCell.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookBorrowingForm.cs</File>
+              <Line>162</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.BookBorrowingForm.BorrowedBooksListCellValueChanged.21object sender;DataGridViewCellEventArgs e;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>21</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookBorrowingForm.cs</File>
+              <Line>233</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.PaintGridCell.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.PaintGridCell.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Unsuitable naming(名不符實)-ShowReplenishmentWindow(replenishment)</SmellType>
+              <HashCode>UnsuitableNaming.BookInventoryForm.ShowReplenishmentWindow.ShowReplenishmentWindow</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>83</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Unsuitable naming(名不符實)-ValidatingCell(validating)</SmellType>
+              <HashCode>UnsuitableNaming.BookInventoryForm.ValidatingCell.ValidatingCell</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>115</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.BookInventoryForm.ValidatingCell</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>115</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Unsuitable naming(名不符實)-_replenishment(replenishment)</SmellType>
+              <HashCode>UnsuitableNaming.BookInventoryForm._replenishment._replenishment</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookInventoryForm.Designer.cs</File>
+              <Line>191</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>Unsuitable naming(名不符實)-Replenish(replenish)</SmellType>
+              <HashCode>UnsuitableNaming.BookInventoryFormPresentationModel.Replenish.Replenish</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookInventoryFormPresentationModel.cs</File>
+              <Line>64</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>13</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.BookInventoryFormPresentationModel.Replenish</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>BookInventoryFormPresentationModel.cs</File>
+              <Line>64</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
+              <SmellType>Literal constants(字面常數)-"Enabled"</SmellType>
+              <HashCode>LiteralConstants.MenuForm."Enabled"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>MenuForm.cs</File>
+              <Line>22</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>15</Id>
+              <SmellType>Literal constants(字面常數)-"Enabled"</SmellType>
+              <HashCode>LiteralConstants.MenuForm."Enabled"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>MenuForm.cs</File>
+              <Line>23</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>Unsuitable naming(名不符實)-ReplenishmentForm(replenishment)</SmellType>
+              <HashCode>UnsuitableNaming.LibraryManagementSystem.ReplenishmentForm.ReplenishmentForm</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>ReplenishmentForm.cs</File>
+              <Line>13</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>Unsuitable naming(名不符實)-hWnd(h, wnd)</SmellType>
+              <HashCode>UnsuitableNaming.DataGridViewNumericUpDownEditingControl.SendMessage.hWnd</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>15</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
+              <SmellType>Unsuitable naming(名不符實)-msg(msg)</SmellType>
+              <HashCode>UnsuitableNaming.DataGridViewNumericUpDownEditingControl.SendMessage.msg</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>15</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>Unsuitable naming(名不符實)-wParam(w, param)</SmellType>
+              <HashCode>UnsuitableNaming.DataGridViewNumericUpDownEditingControl.SendMessage.wParam</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>15</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
+              <SmellType>Unsuitable naming(名不符實)-lParam(l, param)</SmellType>
+              <HashCode>UnsuitableNaming.DataGridViewNumericUpDownEditingControl.SendMessage.lParam</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>15</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>21</Id>
+              <SmellType>ICS(變數-1)</SmellType>
+              <HashCode>Variable1.DataGridViewNumericUpDownEditingControl.dataGridView</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>18</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(變數-1) Class 成員變數以底線開始，底線後第一個字母小寫，若由多個單字組成，從第二個單字開始，每個單字的第一個字母大寫，其餘小寫。 不以底線區隔單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>22</Id>
+              <SmellType>ICS(變數-1)</SmellType>
+              <HashCode>Variable1.DataGridViewNumericUpDownEditingControl.valueChanged</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>20</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(變數-1) Class 成員變數以底線開始，底線後第一個字母小寫，若由多個單字組成，從第二個單字開始，每個單字的第一個字母大寫，其餘小寫。 不以底線區隔單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>23</Id>
+              <SmellType>ICS(變數-1)</SmellType>
+              <HashCode>Variable1.DataGridViewNumericUpDownEditingControl.rowIndex</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>22</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(變數-1) Class 成員變數以底線開始，底線後第一個字母小寫，若由多個單字組成，從第二個單字開始，每個單字的第一個字母大寫，其餘小寫。 不以底線區隔單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>24</Id>
+              <SmellType>Unsuitable naming(名不符實)-m(m)</SmellType>
+              <HashCode>UnsuitableNaming.DataGridViewNumericUpDownEditingControl.ProcessKeyEventArgs.m</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>347</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>25</Id>
+              <SmellType>Unsuitable naming(名不符實)-ProcessKeyEventArgs(args)</SmellType>
+              <HashCode>UnsuitableNaming.DataGridViewNumericUpDownEditingControl.ProcessKeyEventArgs.ProcessKeyEventArgs</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DataGridViewNumericUpDownElements</Project>
+              <File>DataGridViewNumericUpDownEditingControl.cs</File>
+              <Line>347</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>26</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>98 LibraryManagementSystem.MyBorrowItem.Notify(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>myBorrowItem.cs</File>
+              <Line>98</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>LibraryManagementSystem.MyBorrowItem.Notify(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>27</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>37 LibraryManagementSystem.MyBackPackItem.Notify(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>myBackPackItem.cs</File>
+              <Line>37</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>LibraryManagementSystem.MyBackPackItem.Notify(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>28</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>285 目前物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.Library，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.Library.GetBookCategory(int) 以及 LibraryManagementSystem.Library.GetCategoryName(int)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingFormPresentationModel.cs</File>
+              <Line>285</Line>
+              <StartLine>285</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>285</EndLine>
+              <EndCol>100</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.Library，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.Library.GetBookCategory(int) 以及 LibraryManagementSystem.Library.GetCategoryName(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>29</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>136 目前物件 LibraryManagementSystem.Library，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookCategory，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookCategory.AddBook(LibraryManagementSystem.Book) 以及 LibraryManagementSystem.BookCategory.CategoryName</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\Model\Library.cs</File>
+              <Line>136</Line>
+              <StartLine>134</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>136</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.Library，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookCategory，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookCategory.AddBook(LibraryManagementSystem.Book) 以及 LibraryManagementSystem.BookCategory.CategoryName</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>30</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>224 目前物件 LibraryManagementSystem.Library，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookCategory，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookCategory.CategoryName 以及 LibraryManagementSystem.BookCategory.BookIsInCategory(LibraryManagementSystem.Book)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\Model\Library.cs</File>
+              <Line>224</Line>
+              <StartLine>223</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>224</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.Library，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookCategory，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookCategory.CategoryName 以及 LibraryManagementSystem.BookCategory.BookIsInCategory(LibraryManagementSystem.Book)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>31</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>244 目前物件 LibraryManagementSystem.Library，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookItem，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookItem.Quantity 以及 LibraryManagementSystem.BookItem.GetBook()</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\Model\Library.cs</File>
+              <Line>244</Line>
+              <StartLine>243</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>244</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.Library，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookItem，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookItem.Quantity 以及 LibraryManagementSystem.BookItem.GetBook()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>32</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>47 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetCategoryName(int) 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetCategoryCounts()</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>47</Line>
+              <StartLine>46</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>47</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetCategoryName(int) 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetCategoryCounts()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>33</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>61 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsForEveryPage() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsInCategory(int)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>61</Line>
+              <StartLine>61</StartLine>
+              <StartCol>20</StartCol>
+              <EndLine>61</EndLine>
+              <EndCol>79</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsForEveryPage() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsInCategory(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>34</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>66 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：2次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsForEveryPage() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsForEveryPage() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsInCategory(int)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>66</Line>
+              <StartLine>65</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>66</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：2次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsForEveryPage() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsForEveryPage() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsInCategory(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>35</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>67 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetButtonNumber() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsInCategory(int)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>67</Line>
+              <StartLine>66</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>67</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetButtonNumber() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsInCategory(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>36</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>68 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.MakeNewButton() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsInCategory(int)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>68</Line>
+              <StartLine>67</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>68</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.MakeNewButton() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookCountsInCategory(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>37</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>94 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：3次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookName() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookNumber() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookAuthor() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookPublisher()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>94</Line>
+              <StartLine>93</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>94</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：3次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookName() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookNumber() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookAuthor() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookPublisher()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>38</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>96 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：3次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookName() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookNumber() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookAuthor() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookPublisher()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>96</Line>
+              <StartLine>94</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>96</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：3次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookName() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookNumber() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookAuthor() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookPublisher()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>39</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>109 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.AddToBorrowList() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.IsTooMany()</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>109</Line>
+              <StartLine>108</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>109</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.AddToBorrowList() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.IsTooMany()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>40</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>133 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetPage() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetPageCounts()</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>133</Line>
+              <StartLine>132</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>133</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetPage() 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetPageCounts()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>41</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>142 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.IsThisBookButtonVisible(int, int) 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetCategoryCounts()</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>142</Line>
+              <StartLine>141</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>142</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.IsThisBookButtonVisible(int, int) 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetCategoryCounts()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>42</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>244 目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookQuantity(int) 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookQuantity(int)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookBorrowingForm.cs</File>
+              <Line>244</Line>
+              <StartLine>243</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>244</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 LibraryManagementSystem.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookQuantity(int) 以及 LibraryManagementSystem.BookBorrowingFormPresentationModel.GetBookQuantity(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>43</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>109 目前物件 LibraryManagementSystem.BookInventoryForm，使用物件的方法或屬性次數：3次，Envy到對象物件 LibraryManagementSystem.BookInventoryFormPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookName(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookNumber(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookAuthor(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookPublisher(int)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookInventoryForm.cs</File>
+              <Line>109</Line>
+              <StartLine>108</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>109</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookInventoryForm，使用物件的方法或屬性次數：3次，Envy到對象物件 LibraryManagementSystem.BookInventoryFormPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookName(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookNumber(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookAuthor(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookPublisher(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>44</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>111 目前物件 LibraryManagementSystem.BookInventoryForm，使用物件的方法或屬性次數：3次，Envy到對象物件 LibraryManagementSystem.BookInventoryFormPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookName(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookNumber(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookAuthor(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookPublisher(int)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>LibraryManagementSystem</Project>
+              <File>D:\111-1_classes\Windows\107A50039\LibraryManagementSystem\LibraryManagementSystem\ViewAndControls\BookInventoryForm.cs</File>
+              <Line>111</Line>
+              <StartLine>109</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>111</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 LibraryManagementSystem.BookInventoryForm，使用物件的方法或屬性次數：3次，Envy到對象物件 LibraryManagementSystem.BookInventoryFormPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookName(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookNumber(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookAuthor(int) 以及 LibraryManagementSystem.BookInventoryFormPresentationModel.GetBookPublisher(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList />
+          <HashCodeRequestIgnoreList>
+            <string>LiteralConstants.MenuForm."Enabled"</string>
+            <string>LongMethod.BookBorrowingForm.BorrowedBooksListCellValueChanged.21object sender;DataGridViewCellEventArgs e;</string>
+            <string>LiteralConstants.PaintGridCell.2</string>
+            <string>Method2.Library.Replenish</string>
+            <string>Method2.BookInventoryFormPresentationModel.Replenish</string>
+            <string>UnsuitableNaming.BookInventoryFormPresentationModel.Replenish.Replenish</string>
+            <string>UnsuitableNaming.BookInventoryForm._replenishment._replenishment</string>
+            <string>UnsuitableNaming.BookInventoryForm.ShowReplenishmentWindow.ShowReplenishmentWindow</string>
+            <string>UnsuitableNaming.Library.Replenish.Replenish</string>
+            <string>UnsuitableNaming.BookInventoryForm.ValidatingCell.ValidatingCell</string>
+          </HashCodeRequestIgnoreList>
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>Model\Book.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\BookCategory.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\BookItem.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\BorrowedItem.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\BorrowedList.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Library.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MyBackPackItem.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MyBorrowItem.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Program.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Resources.Designer.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Settings.Designer.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BackPackForm.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BackPackForm.Designer.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BackPackFormPresentationModel.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BookBorrowingForm.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BookBorrowingForm.Designer.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BookBorrowingFormPresentationModel.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BookInventoryForm.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BookInventoryForm.Designer.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\BookInventoryFormPresentationModel.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\MenuForm.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\MenuForm.Designer.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\MenuFormPresentationModel.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\ReplenishmentForm.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ViewAndControls\ReplenishmentForm.Designer.cs</RelativePath>
+                <ProjectName>LibraryManagementSystem</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewNumericUpDownCell.cs</RelativePath>
+                <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewNumericUpDownColumn.cs</RelativePath>
+                <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewNumericUpDownEditingControl.cs</RelativePath>
+                <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <ProductionLoc>3126</ProductionLoc>
+          <TestLoc>1235</TestLoc>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>
